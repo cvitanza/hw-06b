@@ -38,7 +38,7 @@ def classifyTriangle(a, b, c):
     if a == b == c:  # All three sides are equal
         return 'Equilateral'
 
-    # Check for right triangle using the Pythagorean theorem (order doesn't matter)
+    # Check for right triangle using the Pythagorean theorem (order does not matter)
     if (a ** 2 + b ** 2 == c ** 2) or (b ** 2 + c ** 2 == a ** 2) or (a ** 2 + c ** 2 == b ** 2):
         return 'Right'
 
